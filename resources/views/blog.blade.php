@@ -7,8 +7,8 @@
     <title>Blog</title>
 </head>
 <body>
-@extends('template/navbarTemplate')
-@section('navbar')
+    @extends('templates/navbarTemplate')
+    @section('navbar')
     <h1>Vista del blog</h1>
     @foreach($posts as $post)
     <p>

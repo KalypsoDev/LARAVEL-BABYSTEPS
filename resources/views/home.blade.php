@@ -6,7 +6,7 @@
     <title>Home</title>
 </head>
 <body>
-    @extends('template/navbarTemplate')
+    @extends('templates/navbarTemplate')
     @section('navbar')
 
     <h1>Hola soy home</h1>
