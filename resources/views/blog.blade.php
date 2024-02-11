@@ -9,7 +9,7 @@
 <body>
     @extends('templates/navbarTemplate')
     @section('navbar')
-    <h1>Vista del blog</h1>
+    <h1>Nutrición Loli</h1>
     @foreach($posts as $post)
     <p>
         <strong>{{$post['id']}}</strong>
